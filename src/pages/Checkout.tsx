@@ -39,8 +39,7 @@ const Checkout: React.FC = () => {
 
     // Fonction pour finaliser l'achat (par exemple, envoyer les données au serveur)
     const handleFinalizePurchase = () => {
-        // Implémentez la logique de paiement ici
-        // Par exemple, envoyer une requête POST à votre API
+        // la logique d'envoie de mail ici
         alert('Achat finalisé !');
         history.push('/home');
     };
